@@ -1,0 +1,8 @@
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-content: center;
+}
+.modal-dialog {
+  margin-top: 40vh;
+}

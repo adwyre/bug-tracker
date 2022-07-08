@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "id": 11,
+      "title": "Project 1",
+      "assigned_to_id": 21
+    },
+    {
+      "id": 12,
+      "title": "Project 2",
+      "assigned_to_id": 21
+    }
+  ]
+}

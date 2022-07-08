@@ -1,0 +1,172 @@
+{
+  "cases": [
+    {
+      "id": 1,
+      "priority": "critical",
+      "category": "bug",
+      "department": "backend",
+      "assigned_to_id": null,
+      "status": "active",
+      "project_id": 11,
+      "title": "Backend Bug",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 22
+    },
+    {
+      "id": 2,
+      "priority": "high",
+      "category": "feature",
+      "department": "UI",
+      "assigned_to_id": 23,
+      "status": "resolved",
+      "project_id": 12,
+      "title": "UI Feature",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 21
+    },
+    {
+      "id": 3,
+      "priority": "med",
+      "category": "bug",
+      "department": "database",
+      "assigned_to_id": 22,
+      "status": "active",
+      "project_id": 12,
+      "title": "Database Bug",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 21
+    },
+    {
+      "id": 4,
+      "priority": "low",
+      "category": "inquiry",
+      "department": "support",
+      "assigned_to_id": 21,
+      "status": "duplicate",
+      "project_id": 11,
+      "title": "Support Inquiry",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 23
+    },
+    {
+      "id": 5,
+      "priority": "critical",
+      "category": "bug",
+      "department": "backend",
+      "assigned_to_id": null,
+      "status": "active",
+      "project_id": 11,
+      "title": "Other Backend Bug",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 22
+    },
+    {
+      "id": 6,
+      "priority": "med",
+      "category": "feature",
+      "department": "UI",
+      "assigned_to_id": 23,
+      "status": "resolved",
+      "project_id": 12,
+      "title": "Second UI Feature",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 21
+    },
+    {
+      "id": 7,
+      "priority": "high",
+      "category": "bug",
+      "department": "database",
+      "assigned_to_id": 22,
+      "status": "duplicate",
+      "project_id": 12,
+      "title": "Another Bug",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 21
+    },
+    {
+      "id": 8,
+      "priority": "med",
+      "category": "inquiry",
+      "department": "backend",
+      "assigned_to_id": 21,
+      "status": "active",
+      "project_id": 11,
+      "title": "Backend Inquiry",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 23
+    },
+    {
+      "id": 9,
+      "priority": "med",
+      "category": "inquiry",
+      "department": "database",
+      "assigned_to_id": 22,
+      "status": "active",
+      "project_id": 12,
+      "title": "Database Inquiry",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 21
+    },
+    {
+      "id": 10,
+      "priority": "low",
+      "category": "bug",
+      "department": "support",
+      "assigned_to_id": 21,
+      "status": "no fix",
+      "project_id": 11,
+      "title": "Support Bug",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 23
+    },
+    {
+      "id": 11,
+      "priority": "low",
+      "category": "inquiry",
+      "department": "backend",
+      "assigned_to_id": null,
+      "status": "active",
+      "project_id": 11,
+      "title": "Backend Inquiry 2",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 22
+    },
+    {
+      "id": 12,
+      "priority": "med",
+      "category": "bug",
+      "department": "UI",
+      "assigned_to_id": 23,
+      "status": "resolved",
+      "project_id": 12,
+      "title": "UI Problem",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 21
+    },
+    {
+      "id": 13,
+      "priority": "high",
+      "category": "feature",
+      "department": "database",
+      "assigned_to_id": 22,
+      "status": "duplicate",
+      "project_id": 12,
+      "title": "Database Feature",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 21
+    },
+    {
+      "id": 14,
+      "priority": "med",
+      "category": "bug",
+      "department": "backend",
+      "assigned_to_id": 21,
+      "status": "active",
+      "project_id": 11,
+      "title": "Another Backend Bug",
+      "description": "This is a short description of the case. Here is a bit more information that a user could provide that would be useful to resolving the case.",
+      "submitted_by_id": 23
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 21,
+      "name": "J Smith",
+      "email": "jsmith@email.com",
+      "role": "project manager"
+    },
+    {
+      "id": 22,
+      "name": "John Smith",
+      "email": "johnsmith@email.com",
+      "role": "backend developer"
+    },
+    {
+      "id": 23,
+      "name": "Jane Smith",
+      "email": "janesmith@email.com",
+      "role": "UI designer"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.table-box {
+  width: 60%;
+  min-width: 362px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: fit-content;
+}
