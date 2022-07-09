@@ -21,9 +21,9 @@ const HistoryTable = (props) => {
           </tr>
         </thead>
         <tbody>
-        {history.updates ? (
-          history.updates.map(update => (
-            <tr key={history.updates.indexOf(update)}>
+        {history[0] ? (
+          history.map(update => (
+            <tr key={update.id}>
               <td>{update.time}</td>
               <td>{update.status}</td>
               <td>{props.users.filter(user => user.id === update.user_id)[0].name}</td>

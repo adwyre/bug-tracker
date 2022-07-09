@@ -3,107 +3,156 @@
     {
       "id": 31,
       "case_id": 1,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 21}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 21
     },
     {
       "id": 32,
       "case_id": 2,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 21}, 
-        {"status": "resolved", "time": "Fri Jul 01 2022 10:49:29 GMT-0500", "user_id": 22}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 21
     },
     {
       "id": 33,
-      "case_id": 3,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 23}
-      ]
+      "case_id": 2,
+      "status": "resolved", 
+      "time": "Fri Jul 01 2022 10:49:29 GMT-0500", 
+      "user_id": 22
     },
     {
       "id": 34,
-      "case_id": 4,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 23}, 
-        {"status": "resolved", "time": "Fri Jul 01 2022 14:49:29 GMT-0500", "user_id": 22}
-      ]
+      "case_id": 3,
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 23
     },
     {
       "id": 35,
+      "case_id": 4,
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 23
+    },
+    {
+      "id": 36,
+      "case_id": 4,
+      "status": "resolved", 
+      "time": "Fri Jul 01 2022 14:49:29 GMT-0500", 
+      "user_id": 22
+    },
+    {
+      "id": 37,
       "case_id": 5,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 21}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 21
     },
     {
       "id": 36,
       "case_id": 6,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 21}, 
-        {"status": "resolved", "time": "Fri Jul 01 2022 10:49:29 GMT-0500", "user_id": 22}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 21 
+    },
+    {
+      "id": 36,
+      "case_id": 6,
+      "status": "resolved", 
+      "time": "Fri Jul 01 2022 10:49:29 GMT-0500", 
+      "user_id": 22
     },
     {
       "id": 37,
       "case_id": 7,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 23}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 23
     },
     {
       "id": 38,
       "case_id": 8,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 23}, 
-        {"status": "resolved", "time": "Fri Jul 01 2022 14:49:29 GMT-0500", "user_id": 22}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 23
+    },
+    {
+      "id": 38,
+      "case_id": 8,
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 23
+    },
+    {
+      "id": 38,
+      "case_id": 8,
+      "status": "resolved", 
+      "time": "Fri Jul 01 2022 14:49:29 GMT-0500", 
+      "user_id": 22
     },
     {
       "id": 39,
       "case_id": 9,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 21}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 21
     },
     {
       "id": 40,
       "case_id": 10,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 21}, 
-        {"status": "resolved", "time": "Fri Jul 01 2022 10:49:29 GMT-0500", "user_id": 22}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 21
+    },
+    {
+      "id": 40,
+      "case_id": 10,
+      "status": "resolved", 
+      "time": "Fri Jul 01 2022 10:49:29 GMT-0500", 
+      "user_id": 22
     },
     {
       "id": 41,
-      "case_id": 11,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 23}
-      ]
+      "case_id": 11, 
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 23
     },
     {
       "id": 42,
       "case_id": 12,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 23}, 
-        {"status": "resolved", "time": "Fri Jul 01 2022 14:49:29 GMT-0500", "user_id": 22}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 23
+    },
+    {
+      "id": 42,
+      "case_id": 12,
+      "status": "resolved", 
+      "time": "Fri Jul 01 2022 14:49:29 GMT-0500", 
+      "user_id": 22
     },
     {
       "id": 43,
       "case_id": 13,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 21}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 21
     },
     {
       "id": 44,
       "case_id": 14,
-      "updates": [
-        {"status": "open", "time": "Fri Jul 01 2022 09:49:29 GMT-0500", "user_id": 21}, 
-        {"status": "resolved", "time": "Fri Jul 01 2022 10:49:29 GMT-0500", "user_id": 22}
-      ]
+      "status": "open", 
+      "time": "Fri Jul 01 2022 09:49:29 GMT-0500", 
+      "user_id": 21
+    },
+    {
+      "id": 44,
+      "case_id": 14,
+      "status": "resolved", 
+      "time": "Fri Jul 01 2022 10:49:29 GMT-0500", 
+      "user_id": 22
     }
   ]
 }

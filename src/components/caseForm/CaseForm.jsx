@@ -1,7 +1,7 @@
 import "./caseForm.css";
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getUsers, getProjects, getCases } from '../../api/API';
+import { getUsers, getProjects, getCases, getPk } from '../../api/API';
 import { priorities, departments, categories } from "../util/formSelections";
 
 
@@ -9,11 +9,33 @@ const CaseForm = () => {
   const [users, setUsers] = useState([]);
   const [projects, setProjects] = useState([]);
   const {id} = useParams();
+  const [newCase, setNewCase] = useState({
+    id: getPk("cases"),
+    priority: "",
+    category: "",
+    department: "",
+    assigned_to_id: "",
+    status: "active",
+    project_id: "",
+    title: "",
+    description: "",
+    submitted_by_id: ""
+  });
 
   useEffect(() => {
     setUsers(getUsers());
     setProjects(getProjects());
   },[id])
+
+  const handleChange = (e) =>{
+    newCase[e.target.name] = e.target.value;
+    console.log(newCase)
+  }
+
+  const handleSubmit = (e) => {
+
+  }
+
 
   return (
     <>
@@ -25,12 +47,12 @@ const CaseForm = () => {
           {/* Title field */}
           <div className="col-md-8">
             <label for="title" className="form-label">Title:</label>
-              <input id="name" name="name" type="text" className="form-control" value="" required/>
+              <input onChange={handleChange} id="title" name="title" type="text" className="form-control" required/>
           </div>
           {/* Priority field */}
           <div className="col-md-4">
             <label for="priority" className="form-label">Priority:</label>
-              <select id="priority" name="priority" className="form-select" required>
+              <select onChange={handleChange} id="priority" name="priority" className="form-select" required>
                 <option selected>----------</option>
                 {priorities.map(priority => (
                   <option value={priority}>{priority}</option>
@@ -40,12 +62,12 @@ const CaseForm = () => {
           {/* Description field */}
           <div className="col-12">
             <label for="description" className="form-label">Description:</label>
-            <textarea id="description" name="description" className="form-control" value="" rows="2" required/>
+            <textarea onChange={handleChange} id="description" name="description" className="form-control" rows="2" required/>
           </div>
           {/* Assign to field */}
           <fieldset className="col-md-6" disabled>
             <label for="assignTo" className="form-label">Assign To:</label>
-              <select id="assignTo" name="assigned_to_id" className="form-select">
+              <select onChange={handleChange} id="assignTo" name="assigned_to_id" className="form-select">
                 <option selected>----------</option>
                 {users.map(user => (
                   <option value={user.name}>{user.name}</option>
@@ -55,7 +77,7 @@ const CaseForm = () => {
             {/* Department field */}
             <div className="col-md-6">
               <label for="department" className="form-label">Department:</label>
-                <select id="department" name="department" className="form-select" required>
+                <select onChange={handleChange} id="department" name="department" className="form-select" required>
                   <option selected>----------</option>
                   {departments.map(department => (
                     <option value={department}>{department}</option>
@@ -65,7 +87,7 @@ const CaseForm = () => {
             {/* Catgeory field */}
             <div className="col-md-6">
               <label for="category" className="form-label">Category:</label>
-                <select id="category" name="category" className="form-select" required>
+                <select onChange={handleChange} id="category" name="category" className="form-select" required>
                   <option selected>----------</option>
                   {categories.map(category => (
                     <option value={category}>{category}</option>
@@ -75,7 +97,7 @@ const CaseForm = () => {
             {/* Project field */}
             <div className="col-md-6">
               <label for="project" className="form-label">Project:</label>
-                <select id="project" name="project" className="form-select" required>
+                <select onChange={handleChange} id="project" name="project" className="form-select" required>
                   <option selected>----------</option>
                   {projects.map(project => (
                     <option value={project.title}>{project.title}</option>
